@@ -1,0 +1,8 @@
+name: Deployment with Docker-compose
+on: [push]
+jobs:
+  Deployment:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - runs: echo "Hello World!!!"
