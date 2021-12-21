@@ -5,4 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
-      - runs: echo "Hello World!!!"
+      - run: echo "Hello World!!!"
